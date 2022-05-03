@@ -1,0 +1,11 @@
+.calc >*{
+    margin: 10px;
+}
+
+#operators>*,input,button{
+    border-radius: 20px;
+}
+
+hr {
+    width: 180px;
+}
