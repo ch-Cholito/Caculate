@@ -49,3 +49,18 @@ function divide() {
     document.getElementById('out').innerHTML = result;
     
 }
+
+function checkZero() {
+    let  number1 = document.getElementById('number1').value;
+    number1 = parseInt(number1)
+
+    number2 = document.getElementById('number2').value;
+    number2 = parseInt(number2);
+
+    result = number1/number2;
+    document.getElementById('out').innerHTML = result;
+if (number2 == 0){
+    alert ('На ноль делить нельзя');
+    document.getElementById('out').innerHTML = "not calculated"
+}
+}
